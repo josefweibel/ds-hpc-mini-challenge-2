@@ -1,3 +1,21 @@
 ### Mini-challenge 2
 
-For the second mini-challenge, you can work locally on your computer for the CPU part or use the [FHNW jupyter hub](https://jhub.cs.technik.fhnw.ch/). For the GPU part, you can work on your personal graphics card (NVIDIA one needed) or use Google [CoLab](colab.research.google.com/).
+In dieser Mini-Challenge 2 programmieren, parallelisieren, beschleunigen und analysieren wir die 
+Kompression-Dekompression von Alzheimer MRI Bildern. Der erste Teil (CPU) kann lokal auf dem eigenen 
+PC oder auf [FHNW jupyter hub](https://jhub.cs.technik.fhnw.ch/) erarbeitet werden. Der zweite Teil 
+benötigt eine Nvidia GPU, auch hier kann auf einer privaten GPU entwickelt werden oder man gebraucht 
+den gratis Service von [Google CoLab](colab.research.google.com/).
+
+### Zeitplan und Meilensteine
+
+* Ausgabe Aufgabenstellung inkl. Daten: 14.11.2022
+* Deep Dive: 14.11.2022
+* Abgabe Zwischenstand (Github PR): 2.12.2022
+* Abgabe Lösungen aller Aufgaben (Github PR): 16.12.2022
+* Demo der Abgabe (max. 10 Minuten): Sprechstunde vom 22.12.2022
+
+### Bemerkungen
+* In den Aufgaben 1-5 lernst du verschiedene Konzepte von Parallelisierung und Beschleunigung in Python angewendet auf einzelnen Bildern kennen
+* In Aufgabe 6 wendest du nach eigenem Gutdünken die gelernten Konzepte für mehrere Bilder an
+* Die Aufgabe 7 entsprechen der Interpretation und Reflexion der Mini-Challenge
+* Alle Abgaben dürfen bis zur finalen Abgabe noch angepasst werden
