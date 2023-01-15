@@ -130,7 +130,6 @@ def _reconstruct_on_kernel(u, s, vt, reco):
 
     shrd_u_pre[local_y, local_x] = 0
     if y < u.shape[0] and local_x < u.shape[1]:
-        # copy values in transposed order
         shrd_u_pre[local_y, local_x] = u[y, local_x]
 
     if local_y == 0:
@@ -165,7 +164,6 @@ def _reconstruct_on_kernel(u, s, vt, reco):
             # load next block
             shrd_u_pre[local_y, local_x] = 0
             if y < u.shape[0] and (next_block * threads_per_block + local_x) < u.shape[1]:
-                # copy values in transposed order
                 shrd_u_pre[local_y, local_x] = u[y, next_block * threads_per_block + local_x]
 
             if local_y == 0:
